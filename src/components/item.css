@@ -1,0 +1,111 @@
+.MainContainer{
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.sidebar{
+    width: 12rem;
+    height:45rem;
+    background-color: white;
+   padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    
+}
+.checkbox{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.sidebarStyle{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #fff;
+}
+/* .PriceRange{
+    background-color: green;
+} */
+.radioItems{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 0.9rem;
+
+}
+.star{
+    font-size: 0.7rem;
+}
+.sidebarStyle,.sidebarPriceRange,.sidebarRating,.sidebarSortBy{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.itemContainer{
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+.cards{
+   
+    padding: 10px;
+    /* background-color: green; */
+    display: flex;
+   gap: 1.6rem;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.CandidateCard{
+    height: 20rem;
+    width: 12rem;
+    background-color: white;
+    border-radius: 10px;
+    font-size: clamp(0.5rem,0.6rem,1rem);
+    font-weight: bold;
+    border: 2px solid black;
+   
+}
+.CandidateCard img{
+    width: 100%;
+    height: 50%;
+    border-radius: inherit;
+}
+.details{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 10px;
+    /* background-color: red; */
+    width: 95%;
+   
+    margin: auto;
+    
+}
+.viewbtn{
+    padding: 5px;
+    border-radius: 8px;
+   margin: 5%;
+    width: 90%;
+    cursor: pointer;
+  
+}
+.loadmore{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+    
+}
+.loadmorebtn{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+@media screen  and (max-width:870px){
+    .sidebar{
+        display: none;
+    }
+}

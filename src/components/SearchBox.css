@@ -1,0 +1,24 @@
+.SearchBoxContainer{
+   
+    height: 10rem;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-weight: bold;
+}
+.SearchBoxContainer input{
+    padding: 5px 15px;
+    width: 100%;
+    border-radius: 10px;
+   font-size: clamp(1rem,2.5vw,2rem);
+   font-weight: bold;
+}
+.heading{
+    font-size: clamp(0.7rem,3.5vw,2rem);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(220, 220, 220);
+     border-radius: 10px;
+}
